@@ -115,15 +115,18 @@
 
 	</build>
 <distributionManagement>
+	
    <snapshotRepository>
 	<id>snapshots</id>
 	<name>snapshots</name>
 	<url>http://35.164.51.6:8081/components/maven-snapshots</url>
    </snapshotRepository>
+	
    <Repository>
 	<id>releases</id>
 	<name>releases</name>
 	<url>http://35.164.51.6:8081/components/maven-releases</url>
    </Repository>
+	
 </distributionManagement>
 </project>
